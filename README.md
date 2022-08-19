@@ -1,5 +1,5 @@
 
-Deply Link : https://portfolio-rabi.netlify.ap
+Deply Link : https://portfolio-rabi.netlify.app
 
 
 
