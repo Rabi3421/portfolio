@@ -558,9 +558,9 @@ a {
   position: relative;
 }
 
-.img {
+/* .img {
   border-radius: 50%;
-}
+} */
 
 .front p:after {
   content: "";
@@ -589,7 +589,7 @@ a {
 .btn-default {
   background-color: #FFC0CB;
   border: none;
-  padding: 8px 15px;
+  /* padding: 8px 15px; */
   border-radius: 5px;
 }
 

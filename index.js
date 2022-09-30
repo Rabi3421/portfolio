@@ -20,29 +20,30 @@ const skills = [
         category : ["all", "frontend"]
     },
     {
-        name: "Java",
-        icon_url : "./images/java.png",
+        name: "Nodejs",
+        icon_url : "./images/nodejs.png",
         category : ["all", "backend"]
     },
     {
-        name: "Spring Framework",
-        icon_url : "./images/spring.png",
+        name: "Express Framework",
+        icon_url : "./images/expressjs.png",
         category : ["all", "backend"]
     },
     {
-        name: "MySQL",
-        icon_url : "./images/mysql.png",
+        name: "MongoDB",
+        icon_url : "./images/mongodb.png",
         category : ["all", "backend"]
     },
+    
     {
-        name: "Maven",
-        icon_url : "./images/maven.png",
-        category : ["all", "backend"]
+        name: "React",
+        icon_url : "./images/react.png",
+        category : ["all", "frontend"]
     },
     {
-        name: "Hibernate",
-        icon_url : "./images/hibernate.png",
-        category : ["all", "backend"]
+        name: "redux",
+        icon_url : "./images/redux.png",
+        category : ["all", "frontend"]
     },
      {
         name: "Postman",
@@ -50,8 +51,8 @@ const skills = [
         category : ["all", "backend"]
     },
     {
-        name: "AWS",
-        icon_url : "./images/aws.png",
+        name: "Netlify",
+        icon_url : "./images/netlify.png",
         category : ["all"]
     },
     {
