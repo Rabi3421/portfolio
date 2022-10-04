@@ -277,7 +277,8 @@ a {
   color: #303030;
   font-family: "Nunito", sans-serif;
   font-size: 1.05rem;
-  padding: 20px 0;
+  margin-top: -25px;
+  /* padding: 0.2px 0; */
 }
 
 #hobbies {
