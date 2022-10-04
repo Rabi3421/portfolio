@@ -5,7 +5,7 @@ html {
 body {
   text-align: center;
   margin: 0;
-  background-color: #f9f9f9;
+  background-color: e4e6fc;
   position: relative;
 }
 .navbar-nav>.active {
@@ -65,7 +65,7 @@ a {
 .subheading {
   font-family: "IBM Plex Mono", monospace;
   margin-top: 0;
-  color: #FFC0CB;
+  color: grey;
   font-size: 2.5rem;
 }
 .bottom-code {
@@ -127,7 +127,7 @@ a {
   border-radius: 100%;
 }
 .top-container {
-  background-color: #fce4ec;
+  background-color: #e4e6fc;
   margin: 40px 0px 0px 0px;
   position: relative;
   padding-top: 100px;
@@ -138,7 +138,7 @@ a {
   background-color: #f9f9f9;
 }
 .bottom-container {
-  background-color: #FFC0CB;
+  background-color: #e4e6fc;
   padding: 20px 0 1px;
 }
 
@@ -150,7 +150,7 @@ a {
 #my_skills {
   padding: 7% 15%;
   text-align: center;
-  background-color: #FFC0CB;
+  background-color: #e4e6fc;
   color: #fff;
   padding-top: 1%;
 }
@@ -484,7 +484,7 @@ a {
 
 .front, .back {
   background-size: cover;
-  box-shadow: 4px 4px 8px 0px rgb(255 160 160);
+  box-shadow: 4px 4px 8px 0px grey;
   background-position: center;
   transition: all 0.8s ease;
   backface-visibility: hidden;
@@ -514,7 +514,7 @@ a {
   content: "";
   display: block;
   opacity: 1;
-  background-color: #fce4ec;
+  background-color: #e4e6fc;
   backface-visibility: hidden;
   border-radius: 10px;
 }
@@ -587,14 +587,14 @@ a {
 }
 
 .btn-default {
-  background-color: #FFC0CB;
+  background-color: #e4e6fc;
   border: none;
   /* padding: 8px 15px; */
   border-radius: 5px;
 }
 
 .btn-default:hover {
-  background-color: #fce4ec !important;
+  background-color: #e4e6fc !important;
   border: 1px solid rgb(0, 2, 3);
   transition: ease 0.8s;
   transform: scale(1.04);
@@ -627,16 +627,18 @@ a {
 }
 
 #navbar {
-  background-color: #fce4ec !important;
+  background-color: e4e6fc !important;
+
+  /* background-color: #e4e6fc !important; */
 }
 
 .btn-secondary1 {
   font-family: inherit!important;
-  color: rgb(255, 255, 255);
+  color: black;
 }
 
 .btn-default1 {
-  background-color: #E64556;
+  background-color: #e4e6fc;
   border: none;
   padding: 8px 8px;
   border-radius: 5px;
@@ -689,7 +691,7 @@ a {
 .hobby-section {
   height: 50vh;
   width: 100%;
-  background-color: #FCE4EC;
+  background-color: #e4e6fc;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -774,5 +776,5 @@ a {
   overflow: hidden;
   font-family: "IBM Plex Mono", monospace;
   margin-top: 0;
-  color: #FFC0CB;
+  color: grey;
 }
