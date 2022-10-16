@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RabiDevelops 👨‍💻</title>
+    
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="project.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!-- Adding Bootstrap and Javascript -->
     <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 
@@ -341,331 +344,34 @@
             <div class="row" id="myTechnicalSkills"></div>
           </div>
         </section>
+        
         <div id="my_projects">
-          <h2>Projects</h2>
-          <!--flip cards for project-->
-
-          <div class="wrapper">
-            <div class="row featurette">
-              <div
-                class="col-sm-12 col-md-6 col-lg-6 col-xl-3"
-                onhoverstart="this.classList.toggle('hover');"
-              >
-                <div class="container container-1">
-                  <div class="front">
-                    <p class="img" id="img">
-                      <img
-                        class="img"
-                        id="img"
-                        src="images/Bobbibrown.png"
-                        height="200"
-                        width="90%"
-                        alt="proj-img"
-                      />
-                    </p>
-                    <span class="title text-dark">BobbiBrown</span>
-                  </div>
-
-                  <div class="back">
-                    <div style="display: flex">
-                      <button
-                        style="height: 50px; width: 100px; margin-left: 40px"
-                        class="btn-default btn-secondary mx-3 my-3"
-                        type="button"
-                      >
-                        <a
-                          class="btn"
-                          href="https://github.com/Rabi3421/BobbiBrown"
-                          target="_blank"
-                          >GitHub</a
-                        >
-                      </button>
-                      <button
-                        style="height: 50px; width: 100px; margin-left: 40px"
-                        class="btn-default btn-secondary mx-3 my-3"
-                        type="button"
-                      >
-                        <a
-                          class="btn"
-                          href="https://anshulkumaryadav.github.io/BobbiBrown/"
-                          target="_blank"
-                          >Live</a
-                        >
-                      </button>
-                    </div>
-                    <p style="font-size: 20px">
-                      Bobbi Brown is a Cosmetic selling company. Where you can
-                      purchase any kind of cosmetics.
-                      Was responsible for building cart section and checkout page as well as payment page.
-                      Used local storage to use data to store and use that data in cart page.
-                    </p>
-                  </div>
+          <section class="portfolio section" id="projects">
+            <div class="container">
+              <div class="row">
+                <div class="section-title padd-15">
+                  <h2>Projects</h2>
                 </div>
               </div>
-
-              <div
-                class="col-sm-12 col-md-6 col-lg-6 col-xl-3"
-                onhoverstart="this.classList.toggle('hover');"
-              >
-                <div class="container">
-                  <div class="front">
-                    <p class="img" id="img">
-                      <img
-                        class="img"
-                        id="img"
-                        src="images/calculator.jpg"
-                        height="200"
-                        width="90%"
-                        alt="proj-img"
-                      />
-                    </p>
-                    <span class="title text-dark">calculator</span>
-                  </div>
-
-                  <div class="back">
-                    <div style="display: flex">
-                      <button
-                        class="btn-default btn-secondary"
-                        style="
-                          height: 50px;
-                          width: 100px;
-                          margin-top: 20px;
-                          margin-left: 40px;
-                        "
-                        type="button"
-                      >
-                        <a
-                          class="btn"
-                          href="https://github.com/Rabi3421/calculator_react"
-                          target="_blank"
-                          >GitHub</a
-                        >
-                      </button>
-                      <button
-                        class="btn-default btn-secondary"
-                        style="
-                          height: 50px;
-                          width: 100px;
-                          margin-top: 20px;
-                          margin-left: 40px;
-                        "
-                        type="button"
-                      >
-                        <a
-                          class="btn"
-                          href="https://calculator-rabi.netlify.app/"
-                          target="_blank"
-                          >Live</a
-                        >
-                      </button>
-                    </div>
-                    <p style="font-size: 20px">
-                      A calculator website to calculate mathematical operation
-                      in this website. This website is build by using reactJs.
-                      It is a solo project done by me. Was responsoble for building end to end working.
-                      This app was made by using react framework.
-                    </p>
-                  </div>
+              <div class="projects_Filter_Box">
+                <button class="all_projects project_filter_btn">All</button>
+                <button class="frontend_projects project_filter_btn">Frontend</button>
+                <button class="backend_projects project_filter_btn">Backend</button>
+                <!-- <button class="other_projects project_filter_btn">Other Stacks</button> -->
+              </div>
+              <div class="row">
+                <div class="portfolio-heading padd-15">
+                  <!-- <h2>Team and Indivisual Projects : </h2> -->
                 </div>
               </div>
-
-              <div
-                class="col-sm-12 col-md-6 col-lg-6 col-xl-3"
-                onhoverstart="this.classList.toggle('hover');"
-              >
-                <div class="container container-1">
-                  <div class="front">
-                    <p class="img" id="img">
-                      <img
-                        class="img"
-                        id="img"
-                        src="images/news.jpg"
-                        height="200"
-                        width="90%"
-                        alt="proj-img"
-                      />
-                    </p>
-                    <span class="title text-dark">The Hindu</span>
-                  </div>
-
-                  <div class="back">
-                    <div style="display: flex">
-                      <button
-                        class="btn-default btn-secondary"
-                        style="
-                          height: 50px;
-                          width: 100px;
-                          margin-top: 20px;
-                          margin-left: 40px;
-                        "
-                        type="button"
-                      >
-                        <a
-                          class="btn"
-                          href="https://github.com/Rabi3421/clone_of_The_Hindu"
-                          target="_blank"
-                          >GitHub</a
-                        >
-                      </button>
-                      <button
-                        class="btn-default btn-secondary"
-                        style="
-                          height: 50px;
-                          width: 100px;
-                          margin-top: 20px;
-                          margin-left: 40px;
-                        "
-                        type="button"
-                      >
-                        <a
-                          class="btn"
-                          href="https://ephemeral-crumble-cd4716.netlify.app/"
-                          target="_blank"
-                          >Live</a
-                        >
-                      </button>
-                    </div>
-                    <p style="font-size: 20px">
-                      This is a clone of The Hindu News website build by using Html Css and JavaScript.
-                      It is a solo project done by me also responsoble for building end to end functionality.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                class="col-sm-12 col-md-6 col-lg-6 col-xl-3"
-                onhoverstart="this.classList.toggle('hover');"
-              >
-                <div class="container container-1">
-                  <div class="front">
-                    <p class="img" id="img">
-                      <img
-                        class="img"
-                        id="img"
-                        src="images/FabBag.jpg"
-                        height="200"
-                        width="90%"
-                        alt="proj-img"
-                      />
-                    </p>
-                    <span class="title text-dark">FabBag</span>
-                  </div>
-
-                  <div class="back">
-                    <div style="display: flex">
-                      <button
-                        class="btn-default btn-secondary"
-                        style="
-                          height: 50px;
-                          width: 100px;
-                          margin-top: 20px;
-                          margin-left: 40px;
-                        "
-                        type="button"
-                      >
-                        <a
-                          class="btn"
-                          href="https://github.com/Rabi3421/fab_bag_clone"
-                          target="_blank"
-                          >GitHub</a
-                        >
-                      </button>
-                      <button
-                        class="btn-default btn-secondary"
-                        style="
-                          height: 50px;
-                          width: 100px;
-                          margin-top: 20px;
-                          margin-left: 40px;
-                        "
-                        type="button"
-                      >
-                        <a
-                          class="btn"
-                          href="https://mdnasirdmt.github.io/fab-bag-clone-again/"
-                          target="_blank"
-                          >Live</a
-                        >
-                      </button>
-                    </div>
-                    <p style="font-size: 20px">
-                      This website is a clone of FabBag website. We(contributed
-                      by 5 people) build by using Javascript in our unit-2
-                      construct week in MASAI.
-                      Was responsible for building login and signup as well as subscribe page.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="col-sm-12 col-md-6 col-lg-6 col-xl-3"
-                onhoverstart="this.classList.toggle('hover');"
-              >
-                <div class="container container-1">
-                  <div class="front">
-                    <p class="img" id="img">
-                      <img
-                        class="img"
-                        id="img"
-                        src="images/urbancompany.png"
-                        height="200"
-                        width="90%"
-                        alt="proj-img"
-                      />
-                    </p>
-                    <span class="title text-dark">Urban Company</span>
-                  </div>
-
-                  <div class="back">
-                    <div style="display: flex">
-                      <button
-                        class="btn-default btn-secondary"
-                        style="
-                          height: 50px;
-                          width: 100px;
-                          margin-top: 20px;
-                          margin-left: 40px;
-                        "
-                        type="button"
-                      >
-                        <a
-                          class="btn"
-                          href="https://github.com/Rabi3421/tense-visitor-349"
-                          target="_blank"
-                          >GitHub</a
-                        >
-                      </button>
-                      <button
-                        class="btn-default btn-secondary"
-                        style="
-                          height: 50px;
-                          width: 100px;
-                          margin-top: 20px;
-                          margin-left: 40px;
-                        "
-                        type="button"
-                      >
-                        <a
-                          class="btn"
-                          href="https://urbancompanyclone.vercel.app/"
-                          target="_blank"
-                          >Live</a
-                        >
-                      </button>
-                    </div>
-                    <p style="font-size: 20px">
-                      Urban Company website provides all kinds of home services.
-                      Here you can get salon related services also.
-                      Was resposible for building product page and cart page.
-                      We made this website by using react framework.
-                    </p>
-                  </div>
-                </div>
+              <div class="row"  id="projects--container">
+                <!-- ====== portfolio item start ====== -->
+              
+                <!-- ====== portfolio item End ====== -->
+    
               </div>
             </div>
-          </div>
-          <!-- <br> -->
+          </section>
         </div>
         <!-- <br> -->
 
@@ -809,3 +515,4 @@
   </script>
 </html>
 <script src="index.js"></script>
+<script src="project.js"></script>
